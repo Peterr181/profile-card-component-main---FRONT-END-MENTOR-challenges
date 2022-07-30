@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  background-color: hsl(185, 75%, 39%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background-image: url(/images/bg-pattern-top.svg),
+    url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.box-container {
+  max-width: 420px;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 1rem;
+}
+
+.text-container {
+}
+
+.top-img {
+}
+
+.guy-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-top: -52px;
+  margin-bottom: 20px;
+}
+
+.footing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 30px 20px;
+  border-top: 1px solid hsl(227, 10%, 46%, 0.2);
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: hsl(229, 23%, 23%);
+}
+
+.age {
+  color: hsl(0, 0%, 59%);
+}
+
+.city {
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 45px;
+}
+
+.followers {
+  font-size: 15px;
+  color: hsl(0, 0%, 59%);
+}
+
+.amount {
+  font-size: 23px;
+  font-weight: 600;
+  color: black;
+}
